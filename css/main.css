@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.page-header{
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+}
+
+/* navMenu */
+.nav-menu {
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    background-color: #fdd835;
+}
+
+.nav-menu li {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-menu a:link, a:visited {
+    color: black;
+}
+
+.nav-menu a:hover{
+    color: white;
+}
+
+.nav-item-link a, a:visited, a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* Items */
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.list-item-menu li {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: dashed black 1px;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 16px;
+    display: inline-block;
+}
+
+.list-item-name{
+    margin: 15px 20px;
+}
+
+.list-item-date-of-birth {
+    float: right;
+    margin: 15px 20px;
+    font-style: italic;
+}
+
+/* Details */
+.list-item-menu-details {
+    text-align: center;
+    padding: 0 25px 25px;
+}
+
+.list-name-details{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Form */
+form > input {
+    font-size: 16px;
+    display: block;
+    width: 350px;
+    padding: 4px 8px;
+    margin:auto;
+    margin-bottom: 10px;
+    box-shadow:none;
+    background: none;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+form > button {
+    font-size: 16px;
+    width: 250px;
+    display:block;
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #fdd835;
+}
